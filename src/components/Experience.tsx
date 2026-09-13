@@ -5,17 +5,18 @@ const experiences = [
   {
     company: "MaioLabs",
     role: "Software & AI Engineer",
-    period: "2026 - Present",
+    period: "Jun 2026 - Present",
     highlights: [
-      "Building backend and platform systems for production AI, with security, reliability, maintainability, and clear architectural boundaries treated as first-class engineering concerns.",
-      "Designing multi-tenant architecture where data models, queries, authentication, authorization, permissions, and logging enforce explicit tenant boundaries from the start.",
-      "Designing IAM and permission models for multiple user roles, external identity providers, sensitive data, tenant isolation, and auditability.",
+      "Own backend and platform development within a three-engineer team for a production AI project, from client requirements and architecture through implementation and delivery.",
+      "Work directly with the client to understand business needs, clarify requirements, evaluate technical trade-offs, and help define priorities and next steps.",
+      "Design multi-tenant architecture where data models, queries, authentication, authorization, permissions, and logging enforce explicit tenant boundaries.",
+      "Design IAM and permission models for multiple user roles and external identity providers, with security, sensitive-data handling, tenant isolation, auditability, reliability, and maintainability treated as architectural requirements.",
     ],
   },
   {
     company: "Indra via CodeWin",
     role: "Software Engineer",
-    period: "Jun 2024 - 2026",
+    period: "Jun 2024 - Jun 2026",
     highlights: [
       "Built Java and Spring Boot backend services for a port logistics management platform, integrating external client APIs and exposing REST endpoints.",
       "Implemented end-to-end backend workflows covering data ingestion, transformation, persistence, and API design.",
