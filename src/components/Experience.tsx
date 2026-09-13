@@ -7,9 +7,9 @@ const experiences = [
     role: "Software & AI Engineer",
     period: "2026 - Present",
     highlights: [
-      "Building the systems behind production AI, with backend architecture, security, reliability, and maintainability treated as first-class engineering concerns.",
-      "Working on multi-tenant architectures where data models, authentication, permissions, queries, and logging are designed around explicit tenant boundaries from the start.",
-      "Deepening focus on identity and access management, tenant isolation, and auditability for AI systems that serve multiple roles and handle sensitive data.",
+      "Building backend and platform systems for production AI, with security, reliability, maintainability, and clear architectural boundaries treated as first-class engineering concerns.",
+      "Designing multi-tenant architecture where data models, queries, authentication, authorization, permissions, and logging enforce explicit tenant boundaries from the start.",
+      "Designing IAM and permission models for multiple user roles, external identity providers, sensitive data, tenant isolation, and auditability.",
     ],
   },
   {
@@ -17,9 +17,9 @@ const experiences = [
     role: "Software Engineer",
     period: "Jun 2024 - 2026",
     highlights: [
-      "Built backend services for a port logistics management platform using Java and Spring Boot, integrating external client APIs and exposing REST endpoints. Implemented end-to-end backend features, including data ingestion, transformation, persistence, and API design.",
-      "Contributed to QA-driven release cycles with frequent deployments, prioritizing code readability, maintainability, and test coverage (>85%)",
-      "Collaborated with analysts and client teams to ensure correct integration and data handling",
+      "Built Java and Spring Boot backend services for a port logistics management platform, integrating external client APIs and exposing REST endpoints.",
+      "Implemented end-to-end backend workflows covering data ingestion, transformation, persistence, and API design.",
+      "Supported frequent QA-driven release cycles while maintaining >85% automated test coverage and collaborating with analysts and client teams on integrations and data handling.",
     ],
   },
   {
@@ -27,12 +27,12 @@ const experiences = [
     role: "Software Engineer",
     period: "Mar 2023 - Mar 2024",
     highlights: [
-      "Designed and implemented a high-throughput Quarkus microservice for inter-service communication in a distributed platform.",
-      "Designed and implemented a nested set (tree) data model to efficiently store and query hierarchical JSON data, optimizing read performance for complex tree-based queries",
-      "Implemented asynchronous validation and persistence workflows to reduce blocking operations and improve responsiveness",
-      "Benchmarked JSON deserialization approaches and identified a ~32% performance difference in micro-benchmarks, contributing to performance-informed design decisions",
-      "Built CI/CD pipelines with Docker and Jenkins, ensuring >85% test coverage via automated unit and integration tests",
-      "Deployed and operated services in a multi-environment Kubernetes setup (test / int / prod), collaborating closely with QA, PM, and UX",
+      "Designed and implemented a high-throughput Quarkus microservice for inter-service communication within a distributed platform.",
+      "Designed a nested-set tree data model for hierarchical JSON structures, optimizing complex subtree queries and downstream processing.",
+      "Built JSON ingestion, validation, and persistence flows for deeply nested data structures, using asynchronous processing to reduce blocking operations and improve responsiveness.",
+      "Benchmarked JSON deserialization approaches and identified a ~32% performance difference, using the results to inform implementation and architecture decisions.",
+      "Built and maintained CI/CD pipelines with Docker and Jenkins while maintaining >85% automated unit and integration test coverage.",
+      "Deployed and operated services across Kubernetes test, integration, and production environments, working with QA, product management, and UX throughout delivery.",
     ],
   },
 ];
